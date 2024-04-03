@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #000; */
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav{
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: transparent;
+    /* background-color: #000; */
+    z-index: 10;
+}
+#nav-2{
+    font-size: 3.3vh;
+    font-weight: bolder;
+    display: flex;
+    gap: 120px;
+    padding: 0 310px;
+}
+#nav-2 a{
+    text-decoration-line: none;
+}
+#nav-2 a:hover{
+    text-decoration-line: underline;
+}
+#logo{
+    margin: 0 30px;
+}
+#contact-body{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: burlywood; */
+    background-image: url(https://i.ytimg.com/vi/vMqkeESjbo4/maxresdefault.jpg);
+    padding: 10vw;
+    /* margin: 20px; */
+}
+
+#contact-details{
+    height: 70vh;
+    width: 80vw;
+    background-color: rgb(98, 215, 133);
+    background-image: url(https://wallpapercave.com/wp/wp9273533.jpg);
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 2%;
+}
+#contact-details h1{
+    font-size: 4em;
+}
+
+#contact-details #details{
+     padding: 60px;
+}
+#contact-details #details h4{
+    font-size: 1.5vw;
+    padding-bottom: 10px;
+}
+#contact-details i{
+    font-size: 1.6vw;
+    padding-bottom: 10px;
+}
+#contact-details i a{
+    text-decoration-line: none;
+}
+#contact-details i a:hover{
+    text-decoration-line: underline;
+}
